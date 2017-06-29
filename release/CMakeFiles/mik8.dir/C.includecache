@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/media/marian/352A14ADEA097CBE/working environment/summerStudies/redoProgram/I/WPI/mik/mik8/src/main.c
+mik.h
+/media/marian/352A14ADEA097CBE/working environment/summerStudies/redoProgram/I/WPI/mik/mik8/src/mik.h
+parsedexal.h
+/media/marian/352A14ADEA097CBE/working environment/summerStudies/redoProgram/I/WPI/mik/mik8/src/parsedexal.h
+
+/media/marian/352A14ADEA097CBE/working environment/summerStudies/redoProgram/I/WPI/mik/mik8/src/mik.c
+
+/media/marian/352A14ADEA097CBE/working environment/summerStudies/redoProgram/I/WPI/mik/mik8/src/mik.h
+stdio.h
+-
+stdlib.h
+-
+stdbool.h
+-
+
+/media/marian/352A14ADEA097CBE/working environment/summerStudies/redoProgram/I/WPI/mik/mik8/src/mikexecute.c
+
+/media/marian/352A14ADEA097CBE/working environment/summerStudies/redoProgram/I/WPI/mik/mik8/src/mikparse.c
+
+/media/marian/352A14ADEA097CBE/working environment/summerStudies/redoProgram/I/WPI/mik/mik8/src/parsedexal.c
+parsedexal.h
+/media/marian/352A14ADEA097CBE/working environment/summerStudies/redoProgram/I/WPI/mik/mik8/src/parsedexal.h
+
+/media/marian/352A14ADEA097CBE/working environment/summerStudies/redoProgram/I/WPI/mik/mik8/src/parsedexal.h
+mik.h
+/media/marian/352A14ADEA097CBE/working environment/summerStudies/redoProgram/I/WPI/mik/mik8/src/mik.h
+

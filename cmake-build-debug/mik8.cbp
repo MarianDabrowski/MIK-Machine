@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="mik8"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/media/marian/352A14ADEA097CBE/working environment/summerStudies/redoProgram/I/WPI/mik/mik8/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/marian/352A14ADEA097CBE/working\ environment/summerStudies/redoProgram/I/WPI/mik/mik8/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/marian/352A14ADEA097CBE/working\ environment/summerStudies/redoProgram/I/WPI/mik/mik8/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/marian/352A14ADEA097CBE/working\ environment/summerStudies/redoProgram/I/WPI/mik/mik8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/marian/352A14ADEA097CBE/working\ environment/summerStudies/redoProgram/I/WPI/mik/mik8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/media/marian/352A14ADEA097CBE/working environment/summerStudies/redoProgram/I/WPI/mik/mik8/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/marian/352A14ADEA097CBE/working\ environment/summerStudies/redoProgram/I/WPI/mik/mik8/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/marian/352A14ADEA097CBE/working\ environment/summerStudies/redoProgram/I/WPI/mik/mik8/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/marian/352A14ADEA097CBE/working\ environment/summerStudies/redoProgram/I/WPI/mik/mik8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/marian/352A14ADEA097CBE/working\ environment/summerStudies/redoProgram/I/WPI/mik/mik8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/media/marian/352A14ADEA097CBE/working environment/summerStudies/redoProgram/I/WPI/mik/mik8/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/marian/352A14ADEA097CBE/working\ environment/summerStudies/redoProgram/I/WPI/mik/mik8/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/marian/352A14ADEA097CBE/working\ environment/summerStudies/redoProgram/I/WPI/mik/mik8/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/marian/352A14ADEA097CBE/working\ environment/summerStudies/redoProgram/I/WPI/mik/mik8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/marian/352A14ADEA097CBE/working\ environment/summerStudies/redoProgram/I/WPI/mik/mik8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mik8">
+				<Option output="/media/marian/352A14ADEA097CBE/working environment/summerStudies/redoProgram/I/WPI/mik/mik8/cmake-build-debug/mik8" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/marian/352A14ADEA097CBE/working environment/summerStudies/redoProgram/I/WPI/mik/mik8/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/marian/352A14ADEA097CBE/working\ environment/summerStudies/redoProgram/I/WPI/mik/mik8/cmake-build-debug/Makefile&quot;  VERBOSE=1 mik8"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/marian/352A14ADEA097CBE/working\ environment/summerStudies/redoProgram/I/WPI/mik/mik8/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/marian/352A14ADEA097CBE/working\ environment/summerStudies/redoProgram/I/WPI/mik/mik8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/marian/352A14ADEA097CBE/working\ environment/summerStudies/redoProgram/I/WPI/mik/mik8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mik8/fast">
+				<Option output="/media/marian/352A14ADEA097CBE/working environment/summerStudies/redoProgram/I/WPI/mik/mik8/cmake-build-debug/mik8" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/marian/352A14ADEA097CBE/working environment/summerStudies/redoProgram/I/WPI/mik/mik8/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/marian/352A14ADEA097CBE/working\ environment/summerStudies/redoProgram/I/WPI/mik/mik8/cmake-build-debug/Makefile&quot;  VERBOSE=1 mik8/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/marian/352A14ADEA097CBE/working\ environment/summerStudies/redoProgram/I/WPI/mik/mik8/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/marian/352A14ADEA097CBE/working\ environment/summerStudies/redoProgram/I/WPI/mik/mik8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/marian/352A14ADEA097CBE/working\ environment/summerStudies/redoProgram/I/WPI/mik/mik8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/media/marian/352A14ADEA097CBE/working environment/summerStudies/redoProgram/I/WPI/mik/mik8/src/main.c">
+			<Option target="mik8"/>
+		</Unit>
+		<Unit filename="/media/marian/352A14ADEA097CBE/working environment/summerStudies/redoProgram/I/WPI/mik/mik8/src/mik.c">
+			<Option target="mik8"/>
+		</Unit>
+		<Unit filename="/media/marian/352A14ADEA097CBE/working environment/summerStudies/redoProgram/I/WPI/mik/mik8/src/mik.h">
+			<Option target="mik8"/>
+		</Unit>
+		<Unit filename="/media/marian/352A14ADEA097CBE/working environment/summerStudies/redoProgram/I/WPI/mik/mik8/src/mikexecute.c">
+			<Option target="mik8"/>
+		</Unit>
+		<Unit filename="/media/marian/352A14ADEA097CBE/working environment/summerStudies/redoProgram/I/WPI/mik/mik8/src/mikexecute.h">
+			<Option target="mik8"/>
+		</Unit>
+		<Unit filename="/media/marian/352A14ADEA097CBE/working environment/summerStudies/redoProgram/I/WPI/mik/mik8/src/mikparse.c">
+			<Option target="mik8"/>
+		</Unit>
+		<Unit filename="/media/marian/352A14ADEA097CBE/working environment/summerStudies/redoProgram/I/WPI/mik/mik8/src/mikparse.h">
+			<Option target="mik8"/>
+		</Unit>
+		<Unit filename="/media/marian/352A14ADEA097CBE/working environment/summerStudies/redoProgram/I/WPI/mik/mik8/src/parsedexal.c">
+			<Option target="mik8"/>
+		</Unit>
+		<Unit filename="/media/marian/352A14ADEA097CBE/working environment/summerStudies/redoProgram/I/WPI/mik/mik8/src/parsedexal.h">
+			<Option target="mik8"/>
+		</Unit>
+		<Unit filename="/media/marian/352A14ADEA097CBE/working environment/summerStudies/redoProgram/I/WPI/mik/mik8/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

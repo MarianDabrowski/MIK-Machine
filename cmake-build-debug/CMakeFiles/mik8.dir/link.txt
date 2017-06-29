@@ -1,0 +1,1 @@
+/usr/bin/cc  -g   CMakeFiles/mik8.dir/src/parsedexal.c.o CMakeFiles/mik8.dir/src/mik.c.o CMakeFiles/mik8.dir/src/mikexecute.c.o CMakeFiles/mik8.dir/src/mikparse.c.o CMakeFiles/mik8.dir/src/main.c.o  -o mik8 
