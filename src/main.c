@@ -2,7 +2,7 @@
  * Implementation of MIK machine in C
  * Main Aim:
  *         1) to reimplement the MIK machine using structures and more advance
- *            structres
+ *            structures
  *         2) to divide the program into libraries so that it is easier to follow
  *            the process
  *         3) use function pointers
@@ -17,12 +17,13 @@
 
 int main(void)
 {
-    int a;
+    int a, i = 1;
     char c = '-';
     printf("AAAAAA\n");
     while(c != EOF) {
         a = ParseNumber();
-        printf("%d\n", a);
+        printf("%d: %d\n",i, a);
+        ++i;
         c = getchar();
     }
 
