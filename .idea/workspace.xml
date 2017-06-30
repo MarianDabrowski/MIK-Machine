@@ -12,20 +12,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d51885a2-b827-4652-acc5-11fa3aa22264" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/.fuse_hidden00000f610000000b" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/.fuse_hidden00000f6700000008" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/.fuse_hidden00000f7d0000000d" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/.fuse_hidden000010a80000000f" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/.fuse_hidden000010e600000012" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/.fuse_hidden000010f800000014" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/mik8.dir/src/main.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/mik8.dir/src/main.c.o" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/mik8.dir/src/main.c.o" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/mik8.dir/src/mik.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/mik8.dir/src/mik.c.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/mik8.dir/src/mikparse.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/mik8.dir/src/mikparse.c.o" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/mik8.dir/src/parsedexal.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/mik8.dir/src/parsedexal.c.o" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/mik8" afterPath="$PROJECT_DIR$/cmake-build-debug/mik8" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/release/CMakeFiles/mik8.dir/src/main.c.o" afterPath="$PROJECT_DIR$/release/CMakeFiles/mik8.dir/src/main.c.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/release/CMakeFiles/mik8.dir/src/mik.c.o" afterPath="$PROJECT_DIR$/release/CMakeFiles/mik8.dir/src/mik.c.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/release/CMakeFiles/mik8.dir/src/parsedexal.c.o" afterPath="$PROJECT_DIR$/release/CMakeFiles/mik8.dir/src/parsedexal.c.o" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/release/mik8" afterPath="$PROJECT_DIR$/release/mik8" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/mik8.dir/C.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/mik8.dir/C.includecache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/mik8.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/mik8.dir/depend.internal" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/mik8.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/mik8.dir/depend.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/release/CMakeFiles/mik8.dir/C.includecache" afterPath="$PROJECT_DIR$/release/CMakeFiles/mik8.dir/C.includecache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/release/CMakeFiles/mik8.dir/depend.internal" afterPath="$PROJECT_DIR$/release/CMakeFiles/mik8.dir/depend.internal" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/release/CMakeFiles/mik8.dir/depend.make" afterPath="$PROJECT_DIR$/release/CMakeFiles/mik8.dir/depend.make" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/release/test1.txt" afterPath="$PROJECT_DIR$/release/test1.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main.c" afterPath="$PROJECT_DIR$/src/main.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mik.c" afterPath="$PROJECT_DIR$/src/mik.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mik.h" afterPath="$PROJECT_DIR$/src/mik.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mikparse.c" afterPath="$PROJECT_DIR$/src/mikparse.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mikparse.h" afterPath="$PROJECT_DIR$/src/mikparse.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/parsedexal.c" afterPath="$PROJECT_DIR$/src/parsedexal.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/parsedexal.h" afterPath="$PROJECT_DIR$/src/parsedexal.h" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,8 +61,8 @@
       <file leaf-file-name="parsedexal.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/parsedexal.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="82">
+              <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -61,9 +71,11 @@
       <file leaf-file-name="mik.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/mik.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="220">
+              <caret line="11" column="16" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+              <folding>
+                <element signature="e#41#60#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -71,8 +83,8 @@
       <file leaf-file-name="mik.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/mik.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state relative-caret-position="122">
+              <caret line="33" column="13" lean-forward="false" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
               <folding>
                 <element signature="e#79#97#0" expanded="true" />
               </folding>
@@ -100,11 +112,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mikparse.c" pinned="false" current-in-tab="false">
+      <file leaf-file-name="mikparse.c" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/mikparse.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="740">
+              <caret line="40" column="5" lean-forward="false" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -113,18 +125,20 @@
       <file leaf-file-name="mikparse.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/mikparse.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="200">
+              <caret line="10" column="69" lean-forward="false" selection-start-line="10" selection-start-column="69" selection-end-line="10" selection-end-column="69" />
+              <folding>
+                <element signature="e#89#105#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.c" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="26" column="22" lean-forward="false" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+            <state relative-caret-position="162">
+              <caret line="23" column="44" lean-forward="false" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
               <folding>
                 <element signature="e#395#411#0" expanded="true" />
               </folding>
@@ -135,10 +149,13 @@
       <file leaf-file-name="parsedexal.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/parsedexal.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="800">
-              <caret line="40" column="10" lean-forward="false" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
+            <state relative-caret-position="-60">
+              <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="67" selection-end-column="5" />
               <folding>
-                <element signature="e#111#754#0" expanded="false" />
+                <element signature="e#40#63#0" expanded="true" />
+                <element signature="e#132#318#0" expanded="false" />
+                <element signature="e#132#775#0" expanded="false" />
+                <element signature="e#777#1135#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -152,10 +169,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/parsedexal.h" />
-        <option value="$PROJECT_DIR$/src/mik.h" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/src/mik.h" />
+        <option value="$PROJECT_DIR$/src/mik.c" />
+        <option value="$PROJECT_DIR$/src/parsedexal.h" />
         <option value="$PROJECT_DIR$/src/parsedexal.c" />
+        <option value="$PROJECT_DIR$/src/mikparse.h" />
+        <option value="$PROJECT_DIR$/src/mikparse.c" />
         <option value="$PROJECT_DIR$/src/main.c" />
       </list>
     </option>
@@ -441,12 +461,12 @@
       <updated>1498737371599</updated>
       <workItem from="1498737373639" duration="413000" />
       <workItem from="1498737803228" duration="2675000" />
-      <workItem from="1498835716933" duration="455000" />
+      <workItem from="1498835716933" duration="3362000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3543000" />
+    <option name="totallyTimeSpent" value="6450000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1303" height="718" extended-state="6" />
@@ -458,7 +478,7 @@
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32840723" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32840723" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32784185" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -480,7 +500,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -504,7 +526,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#41#60#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -546,7 +570,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#89#105#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -555,7 +581,10 @@
         <state relative-caret-position="800">
           <caret line="40" column="10" lean-forward="false" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
           <folding>
-            <element signature="e#111#754#0" expanded="false" />
+            <element signature="e#40#63#0" expanded="true" />
+            <element signature="e#132#318#0" expanded="false" />
+            <element signature="e#132#775#0" expanded="false" />
+            <element signature="e#777#1135#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -624,7 +653,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#89#105#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -643,7 +674,10 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#111#754#0" expanded="false" />
+            <element signature="e#40#63#0" expanded="true" />
+            <element signature="e#132#318#0" expanded="false" />
+            <element signature="e#132#775#0" expanded="false" />
+            <element signature="e#777#1135#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -652,31 +686,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#41#60#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp" />
-    <entry file="file://$PROJECT_DIR$/src/mikexecute.h">
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mikparse.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mikparse.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="34" lean-forward="false" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
           <folding />
         </state>
       </provider>
@@ -689,15 +709,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/parsedexal.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mik.c">
+    <entry file="file://$PROJECT_DIR$/src/mikexecute.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -705,41 +717,72 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/parsedexal.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/mik.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state relative-caret-position="122">
+          <caret line="33" column="13" lean-forward="false" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
           <folding>
             <element signature="e#79#97#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+    <entry file="file://$PROJECT_DIR$/src/mik.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="34" lean-forward="false" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
-          <folding />
+        <state relative-caret-position="220">
+          <caret line="11" column="16" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+          <folding>
+            <element signature="e#41#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mikparse.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="69" lean-forward="false" selection-start-line="10" selection-start-column="69" selection-end-line="10" selection-end-column="69" />
+          <folding>
+            <element signature="e#89#105#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/parsedexal.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="800">
-          <caret line="40" column="10" lean-forward="false" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
+        <state relative-caret-position="-60">
+          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="67" selection-end-column="5" />
           <folding>
-            <element signature="e#111#754#0" expanded="false" />
+            <element signature="e#40#63#0" expanded="true" />
+            <element signature="e#132#318#0" expanded="false" />
+            <element signature="e#132#775#0" expanded="false" />
+            <element signature="e#777#1135#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="26" column="22" lean-forward="false" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+        <state relative-caret-position="162">
+          <caret line="23" column="44" lean-forward="false" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
           <folding>
             <element signature="e#395#411#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mikparse.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="740">
+          <caret line="40" column="5" lean-forward="false" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>

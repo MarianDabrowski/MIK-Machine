@@ -13,6 +13,10 @@ parsedexal.h
 /media/marian/352A14ADEA097CBE/working environment/summerStudies/redoProgram/I/WPI/mik/mik8/src/parsedexal.h
 
 /media/marian/352A14ADEA097CBE/working environment/summerStudies/redoProgram/I/WPI/mik/mik8/src/mik.c
+assert.h
+-
+mik.h
+/media/marian/352A14ADEA097CBE/working environment/summerStudies/redoProgram/I/WPI/mik/mik8/src/mik.h
 
 /media/marian/352A14ADEA097CBE/working environment/summerStudies/redoProgram/I/WPI/mik/mik8/src/mik.h
 stdio.h
@@ -25,10 +29,20 @@ stdbool.h
 /media/marian/352A14ADEA097CBE/working environment/summerStudies/redoProgram/I/WPI/mik/mik8/src/mikexecute.c
 
 /media/marian/352A14ADEA097CBE/working environment/summerStudies/redoProgram/I/WPI/mik/mik8/src/mikparse.c
+mikparse.h
+/media/marian/352A14ADEA097CBE/working environment/summerStudies/redoProgram/I/WPI/mik/mik8/src/mikparse.h
+
+/media/marian/352A14ADEA097CBE/working environment/summerStudies/redoProgram/I/WPI/mik/mik8/src/mikparse.h
+mik.h
+/media/marian/352A14ADEA097CBE/working environment/summerStudies/redoProgram/I/WPI/mik/mik8/src/mik.h
+parsedexal.h
+/media/marian/352A14ADEA097CBE/working environment/summerStudies/redoProgram/I/WPI/mik/mik8/src/parsedexal.h
 
 /media/marian/352A14ADEA097CBE/working environment/summerStudies/redoProgram/I/WPI/mik/mik8/src/parsedexal.c
 parsedexal.h
 /media/marian/352A14ADEA097CBE/working environment/summerStudies/redoProgram/I/WPI/mik/mik8/src/parsedexal.h
+stdbool.h
+-
 
 /media/marian/352A14ADEA097CBE/working environment/summerStudies/redoProgram/I/WPI/mik/mik8/src/parsedexal.h
 mik.h

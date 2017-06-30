@@ -6,6 +6,7 @@ CMakeFiles/mik8.dir/src/main.c.o: ../src/mik.h
 CMakeFiles/mik8.dir/src/main.c.o: ../src/parsedexal.h
 
 CMakeFiles/mik8.dir/src/mik.c.o: ../src/mik.c
+CMakeFiles/mik8.dir/src/mik.c.o: ../src/mik.h
 
 CMakeFiles/mik8.dir/src/mikexecute.c.o: ../src/mikexecute.c
 

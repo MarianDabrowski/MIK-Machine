@@ -9,7 +9,7 @@
 
 void FindValueAndBase(char ch, int *value, int *base);
 
-int ParseNumber();
+int ParseNumber(bool *isNumber);
 
 void FillArray(int *aray, int size);
 

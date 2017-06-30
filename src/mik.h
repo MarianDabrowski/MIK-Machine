@@ -22,5 +22,15 @@
 #define PUT_CHAR 4
 #define PUT_STRING 5
 
+struct Mik8Machine {
+    int rejestry[SIZE_OF_REJESTRY];
+    int memory[SIZE_OF_MEMORY];
+    int args[3];
+    int programCounter;
+};
+
+typedef struct Mik8Machine Mik8Machine;
+
+Mik8Machine *NewMik8Machine();
 
 #endif //MIK8_MIK_H

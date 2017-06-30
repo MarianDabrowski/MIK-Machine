@@ -17,15 +17,12 @@
 
 int main(void)
 {
-    int a, i = 1;
-    char c = '-';
-    printf("AAAAAA\n");
-    while(c != EOF) {
-        a = ParseNumber();
-        printf("%d: %d\n",i, a);
-        ++i;
-        c = getchar();
-    }
+    Mik8Machine *mik = NewMik8Machine();
+    int instructions[SIZE_OF_MEMORY] = {0};
+    FillArray(mik->rejestry, SIZE_OF_REJESTRY);
+    FillArray(mik->memory, SIZE_OF_MEMORY);
+    FillArray(instructions, SIZE_OF_MEMORY);
+
 
     return 0;
 }

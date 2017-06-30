@@ -3,6 +3,7 @@
 //
 
 #include "parsedexal.h"
+#include <stdbool.h>
 
 /*KONWERTOWANIE LICZBY I WCZYTYWANIE DANYCH*/
 /*
@@ -31,13 +32,14 @@ void FindValueAndBase(char ch, int *value, int *base)
     }
 }
 
-int ParseNumber()
+int ParseNumber(bool *isNumber)
 {
     char ch = getchar();
     int outputValue = 0, testingValue = 0, base = 0;
     while(DexalNumberChar(ch)) {
         FindValueAndBase(ch, &testingValue, &base);
         outputValue = outputValue * base + testingValue;
+        *isNumber = true;
         ch = getchar();
     }
     ungetc(ch, stdin);
@@ -46,14 +48,22 @@ int ParseNumber()
 
 void FillArray(int *array, int size)
 {
-    int counter = 0;
+    int counter = 0, temp;
     char c = getchar();
+    bool isNumber = false;
     while(c != EOF && c != SEPARATOR_SIGN) {
         while(c == NEW_LINE_SIGN || c == TAB_SIGN || c == BLANK_SPACE_SIGN) {
             c = getchar();
         }
         ungetc(c, stdin);
-        array[counter] = ParseNumber();
+        isNumber = false;
+
+        temp = ParseNumber(&isNumber);
+        if(isNumber) {
+            array[counter] = temp;
+            printf("NUMBER JUST PARSED IS %d; COUTER %d\n", array[counter], counter);
+            counter++;
+        }
         c = getchar();
     }
 }
