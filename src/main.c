@@ -1,4 +1,4 @@
-/*
+/**
  * Implementation of MIK machine in C
  * Main Aim:
  *         1) to reimplement the MIK machine using structures and more advance
@@ -13,16 +13,14 @@
 */
 
 #include "mik.h"
-#include "parsedexal.h"
+#include "mikparse.h"
+#include "mikexecute.h"
 
 int main(void)
 {
     Mik8Machine *mik = NewMik8Machine();
-    int instructions[SIZE_OF_MEMORY] = {0};
-    FillArray(mik->rejestry, SIZE_OF_REJESTRY);
-    FillArray(mik->memory, SIZE_OF_MEMORY);
-    FillArray(instructions, SIZE_OF_MEMORY);
-
-
+    ParseInput(mik);
+    interpret(mik);
+    free(mik);
     return 0;
 }

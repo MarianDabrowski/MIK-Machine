@@ -1,16 +1,5 @@
-//
-// Created by marian on 6/29/17.
-//
-
 #include "parsedexal.h"
-#include <stdbool.h>
 
-/*KONWERTOWANIE LICZBY I WCZYTYWANIE DANYCH*/
-/*
-Funkcja wyszukuje odpowiednia wartosc elementu i jego baze przeksztalcenia
-Pryjmuje 3 argumenty elemnt char (ch) na podstawie ktorego
-bedzie ustawiona (value) wartosc i (base) baze
-*/
 void FindValueAndBase(char ch, int *value, int *base)
 {
     if(ch >= '0' && ch <= '9'){
@@ -19,7 +8,7 @@ void FindValueAndBase(char ch, int *value, int *base)
     }
     else if(ch >= 'A' && ch <= 'P'){
         *value = ch - 'A';
-        *base = SIZE_OF_REJESTRY;
+        *base = SIZE_OF_REGISTER;
     }
     else if(ch >= 'Q' && ch <= 'X'){
         *value = ch - 'Q';
@@ -46,12 +35,12 @@ int ParseNumber(bool *isNumber)
     return outputValue;
 }
 
-void FillArray(int *array, int size)
-{
-    int counter = 0, temp;
+int FillUntilSeparator(int *array, int size, int startingPosition) {
+    int counter = startingPosition, temp;
     char c = getchar();
-    bool isNumber = false;
-    while(c != EOF && c != SEPARATOR_SIGN) {
+    bool isNumber;
+
+    while(c != SEPARATOR_SIGN && c != EOF && counter < size) {
         while(c == NEW_LINE_SIGN || c == TAB_SIGN || c == BLANK_SPACE_SIGN) {
             c = getchar();
         }
@@ -61,9 +50,9 @@ void FillArray(int *array, int size)
         temp = ParseNumber(&isNumber);
         if(isNumber) {
             array[counter] = temp;
-            printf("NUMBER JUST PARSED IS %d; COUTER %d\n", array[counter], counter);
             counter++;
         }
-        c = getchar();
+        if(isNumber) c = getchar();
     }
+    return counter;
 }

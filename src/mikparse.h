@@ -1,15 +1,16 @@
-//
-// Created by marian on 6/29/17.
-//
-
-#ifndef MIK8_MIKPARSE_H
-#define MIK8_MIKPARSE_H
+/**
+ * Parsing input into as mik machine data and instructions
+ */
+#ifndef __MIKPARSE_H__
+#define __MIKPARSE_H__
 
 #include "mik.h"
 #include "parsedexal.h"
 
-void FillInstuctionArray(Mik8Machine *mik8Machine, int *instruction);
+/**
+ * Parses the input and fills the mik machine, which is given as argument
+ * @param mik8Machine
+ */
+void ParseInput(Mik8Machine *mik8Machine);
 
-void ParseInput(Mik8Machine *mik8Machine, int *instructions);
-
-#endif //MIK8_MIKPARSE_H
+#endif /*__MIKPARSE_H__*/

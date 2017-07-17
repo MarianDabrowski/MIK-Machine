@@ -1,49 +1,26 @@
-//
-// Created by marian on 6/29/17.
-//
-
 #include "mikparse.h"
 
-void FillInstuctionArray(Mik8Machine *mik8Machine, int *instruction)
+void ParseInput(Mik8Machine *mik8Machine)
 {
-    int counter = 0, temp;
-    char c = getchar();
-    bool isNumber = false;
-    while(c != EOF && c != SEPARATOR_SIGN) {
-        while(c == NEW_LINE_SIGN || c == TAB_SIGN || c == BLANK_SPACE_SIGN) {
-            c = getchar();
-        }
-        ungetc(c, stdin);
-        isNumber = false;
+    char c, a, b;
+    FillUntilSeparator(mik8Machine->machineRegister, SIZE_OF_REGISTER, 0);
+    c = getchar(); b = getchar(); a = getchar();
+    ungetc(a, stdin); ungetc(b, stdin);
+    if((a == SEPARATOR_SIGN && b == SEPARATOR_SIGN &&
+            c == SEPARATOR_SIGN) || (c != SEPARATOR_SIGN)) ungetc(c, stdin);
 
-        temp = ParseNumber(&isNumber);
-        if(isNumber) {
-            instruction[counter] = temp;
-            counter++;
-        }
-        c = getchar();
-    }
-    mik8Machine->programCounter = counter;
+    FillUntilSeparator(mik8Machine->machineMemory, SIZE_OF_MEMORY, 0);
 
-    while(c != EOF && c != SEPARATOR_SIGN) {
-        while(c == NEW_LINE_SIGN || c == TAB_SIGN || c == BLANK_SPACE_SIGN) {
-            c = getchar();
-        }
-        ungetc(c, stdin);
-        isNumber = false;
+    c = getchar();
+    if(c != SEPARATOR_SIGN) ungetc(c, stdin);
 
-        temp = ParseNumber(&isNumber);
-        if(isNumber) {
-            instruction[counter] = temp;
-            counter++;
-        }
-        c = getchar();
-    }
-}
+    mik8Machine->currentInstruction =
+            FillUntilSeparator(mik8Machine->machineInstruction, SIZE_OF_MEMORY, 0);
+    c = getchar();
+    if(c != SEPARATOR_SIGN) ungetc(c, stdin);
 
-void ParseInput(Mik8Machine *mik8Machine, int *instructions)
-{
-    FillArray(mik8Machine->rejestry, SIZE_OF_REJESTRY);
-    FillArray(mik8Machine->memory, SIZE_OF_MEMORY);
-
+    FillUntilSeparator(mik8Machine->machineInstruction, SIZE_OF_MEMORY,
+                        mik8Machine->currentInstruction);
+    c = getchar();
+    if(c != SEPARATOR_SIGN) ungetc(c, stdin);
 }
